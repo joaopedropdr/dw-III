@@ -9,8 +9,9 @@ namespace SistemaAcademico.Models
         public string? Nome { get; set; }
         public int Semestre {  get; set; }
         // Relacionamento com o curso
+        // Display para exibir o nome do atributo na view como Curso não como CursoId
         [Display(Name = "Curso")]
-        public int CusrsoId { get; set; }
+        public int CursoId { get; set; }
         public Curso? Curso { get; set; }
     }
 }

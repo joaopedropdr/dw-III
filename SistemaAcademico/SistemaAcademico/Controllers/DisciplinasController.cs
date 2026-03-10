@@ -22,7 +22,11 @@ namespace SistemaAcademico.controllers
         // GET: Disciplinas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Disciplinas.ToListAsync());
+            // Variavel que salva o nome do curso que está na disciplina
+            var applicationDbContext = _context.Disciplinas.Include(d => d.Curso);
+            var resultado = await applicationDbContext.ToListAsync();
+
+            return View(resultado);
         }
 
         // GET: Disciplinas/Details/5
@@ -46,6 +50,9 @@ namespace SistemaAcademico.controllers
         // GET: Disciplinas/Create
         public IActionResult Create()
         {
+            // View data faz com que tudo que esta na tabela do banco retorne no código como um objeto.
+            // Selectlist faz com que os dados do banco fiquem "legiveis" em html e salva isso na viewDAta
+            ViewData["CursoId"] = new SelectList(_context.Cursos, "CursoId", "Nome");
             return View();
         }
 
@@ -54,7 +61,7 @@ namespace SistemaAcademico.controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DisciplinaId,Nome,Semestre,CusrsoId")] Disciplina disciplina)
+        public async Task<IActionResult> Create([Bind("DisciplinaId,Nome,Semestre,CursoId")] Disciplina disciplina)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +69,7 @@ namespace SistemaAcademico.controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CursoId"] = new SelectList(_context.Cursos, "CursoId", "Nome");
             return View(disciplina);
         }
 
@@ -78,6 +86,7 @@ namespace SistemaAcademico.controllers
             {
                 return NotFound();
             }
+            ViewData["CursoId"] = new SelectList(_context.Cursos, "CursoId", "CursoId");
             return View(disciplina);
         }
 
@@ -86,7 +95,7 @@ namespace SistemaAcademico.controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("DisciplinaId,Nome,Semestre,CusrsoId")] Disciplina disciplina)
+        public async Task<IActionResult> Edit(int id, [Bind("DisciplinaId,Nome,Semestre,CursoId")] Disciplina disciplina)
         {
             if (id != disciplina.DisciplinaId)
             {
@@ -113,6 +122,7 @@ namespace SistemaAcademico.controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CursoId"] = new SelectList(_context.Cursos, "CursoId", "CursoId");
             return View(disciplina);
         }
 

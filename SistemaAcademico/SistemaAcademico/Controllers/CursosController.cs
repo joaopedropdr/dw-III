@@ -41,7 +41,7 @@ namespace SistemaAcademico.controllers
             {
                 return NotFound();
             }
-
+            
             return View(curso);
         }
 

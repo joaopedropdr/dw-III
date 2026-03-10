@@ -72,10 +72,7 @@ namespace SistemaAcademico.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("DisciplinaId"));
 
-                    b.Property<int?>("CursoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CusrsoId")
+                    b.Property<int>("CursoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -154,7 +151,9 @@ namespace SistemaAcademico.Migrations
                 {
                     b.HasOne("SistemaAcademico.Models.Curso", "Curso")
                         .WithMany("Disciplinas")
-                        .HasForeignKey("CursoId");
+                        .HasForeignKey("CursoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Curso");
                 });
