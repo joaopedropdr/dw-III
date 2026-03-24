@@ -10,6 +10,7 @@ namespace VasosInteligentes.Models
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public string? Id { get; set; }
         public string? Nome { get; set; }
+        [Display(Name = "Planta")]
         public string? PlantaId { get; set; }
         [Display(Name = "Localização")]
         public string? Localizacao { get; set; }

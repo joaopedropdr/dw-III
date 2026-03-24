@@ -52,24 +52,48 @@ namespace VasosInteligentes.Controllers
             return View(result);
         }//método
 
-        // GET: Vasos/Details/5
-        //public async Task<IActionResult> Details(string id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
+        //GET: Vasos/Details/5
+        public async Task<IActionResult> Details(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-        //    var vaso = await _context.Vaso.Find(m => m.Id == id).FirstOrDefaultAsync();
-        //    if (vaso == null)
-        //    {
-        //        return NotFound();
-        //    }
+            var pipeline = new BsonDocument[]
+            {   
+                // Fazer a agregação mas apenas com o vaso passado no parametro
+                new BsonDocument("$match", new BsonDocument("_id", new BsonObjectId(new ObjectId(id)))),
+                //criar campos temporários será usado na conversão de Object para string
+                new BsonDocument("$addFields", new BsonDocument
+                {
+                    {"PlantaIdObj", new BsonDocument("$toObjectId", "$PlantaId") }
+                }),
+                //faz o join usando o campo convertido
+                new BsonDocument("$lookup", new BsonDocument
+                {
+                    {"from", "Planta" },
+                    {"localField", "PlantaIdObj" },
+                    {"foreignField", "_id" },
+                    {"as", "PlantaRelacionada" }
+                }),
 
-        //    return View(vaso);
-        //}
+                //remover campos extras para não "quebrar" o C#
+                new BsonDocument("$project", new BsonDocument
+                {
+                    {"PlantaIdObj", 0 }
+                })
 
-        // GET: Vasos/Create
+            };
+            var result = await _context.Vaso.Aggregate<Vaso>(pipeline).FirstOrDefaultAsync();
+            if (result == null)
+            {
+                return NotFound();            
+            }
+            return View(result);
+        }
+
+        //GET: Vasos/Create
         public async Task<IActionResult> Create()
         {
             var plantas = await _context.Planta.Find(_ => true).ToListAsync();
@@ -93,88 +117,114 @@ namespace VasosInteligentes.Controllers
         }
 
         // GET: Vasos/Edit/5
-    //    public async Task<IActionResult> Edit(string id)
-    //    {
-    //        if (id == null)
-    //        {
-    //            return NotFound();
-    //        }
+        public async Task<IActionResult> Edit(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-    //        var vaso = await _context.Vaso.Find(m => m.Id == id).FirstOrDefaultAsync();
-    //        if (vaso == null)
-    //        {
-    //            return NotFound();
-    //        }
-    //        return View(vaso);
-    //    }
+            var vaso = await _context.Vaso.Find(m => m.Id == id).FirstOrDefaultAsync();
+            if (vaso == null)
+            {
+                return NotFound();
+            }
+            var plantas = await _context.Planta.Find(_=> true).ToListAsync();
+            ViewBag.PlantaId = new SelectList(plantas, "Id", "Nome", vaso.PlantaId);
+            return View(vaso);
+        }
 
-    //    // POST: Vasos/Edit/5
-    //    // To protect from overposting attacks, enable the specific properties you want to bind to.
-    //    // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-    //    [HttpPost]
-    //    [ValidateAntiForgeryToken]
-    //    public async Task<IActionResult> Edit(string id, [Bind("Id,Nome,PlantaId,Localizacao")] Vaso vaso)
-    //    {
-    //        if (id != vaso.Id)
-    //        {
-    //            return NotFound();
-    //        }
+        // POST: Vasos/Edit/5
+         // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Nome,PlantaId,Localizacao")] Vaso vaso)
+        {
+            if (id != vaso.Id)
+            {
+                return NotFound();
+            }
 
-    //        if (ModelState.IsValid)
-    //        {
-    //            try
-    //            {
-    //                await _context.Vaso.ReplaceOneAsync(p => p.Id == id, vaso);
-    //            }
-    //            catch (DbUpdateConcurrencyException)
-    //            {
-    //                if (!await VasoExists(vaso.Id))
-    //                {
-    //                    return NotFound();
-    //                }
-    //                else
-    //                {
-    //                    throw;
-    //                }
-    //            }
-    //            return RedirectToAction(nameof(Index));
-    //        }
-    //        return View(vaso);
-    //    }
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _context.Vaso.ReplaceOneAsync(p => p.Id == id, vaso);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!await VasoExists(vaso.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(vaso);
+        }
 
-    //    // GET: Vasos/Delete/5
-    //    public async Task<IActionResult> Delete(string id)
-    //    {
-    //        if (id == null)
-    //        {
-    //            return NotFound();
-    //        }
+        // GET: Vasos/Delete/5
+        public async Task<IActionResult> Delete(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-    //        var vaso = await _context.Vaso.Find(m => m.Id == id).FirstOrDefaultAsync();
-    //        if (vaso == null)
-    //        {
-    //            return NotFound();
-    //        }
+            var pipeline = new BsonDocument[]
+            {   
+                // Fazer a agregação mas apenas com o vaso passado no parametro
+                new BsonDocument("$match", new BsonDocument("_id", new BsonObjectId(new ObjectId(id)))),
+                //criar campos temporários será usado na conversão de Object para string
+                new BsonDocument("$addFields", new BsonDocument
+                {
+                    {"PlantaIdObj", new BsonDocument("$toObjectId", "$PlantaId") }
+                }),
+                //faz o join usando o campo convertido
+                new BsonDocument("$lookup", new BsonDocument
+                {
+                    {"from", "Planta" },
+                    {"localField", "PlantaIdObj" },
+                    {"foreignField", "_id" },
+                    {"as", "PlantaRelacionada" }
+                }),
 
-    //        return View(vaso);
-    //    }
+                //remover campos extras para não "quebrar" o C#
+                new BsonDocument("$project", new BsonDocument
+                {
+                    {"PlantaIdObj", 0 }
+                })
 
-    //    // POST: Vasos/Delete/5
-    //    [HttpPost, ActionName("Delete")]
-    //    [ValidateAntiForgeryToken]
-    //    public async Task<IActionResult> DeleteConfirmed(string id)
-    //    {
-    //        var vaso = await _context.Vaso.DeleteOneAsync(m => m.Id == id);
-    //        if (vaso == null)
-    //        {
-    //            return NotFound();
-    //        }
-    //        return RedirectToAction(nameof(Index));
-    //    }
+            };
+            var result = await _context.Vaso.Aggregate<Vaso>(pipeline).FirstOrDefaultAsync();
+            if (result == null)
+            {
+                return NotFound();
+            }
+            return View(result);
+        }
 
-    //    private async Task<bool> VasoExists(string id)
-    //    {
-    //        return await _context.Vaso.Find(e => e.Id == id).AnyAsync();
-    //    }
+         // POST: Vasos/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            await _context.Vaso.DeleteOneAsync(m => m.Id == id);
+            return RedirectToAction(nameof(Index));
+        }
+
+        private async Task<bool> VasoExists(string id)
+        {
+            return await _context.Vaso.Find(e => e.Id == id).AnyAsync();
+        }
     }
 }
