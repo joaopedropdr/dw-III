@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\controlefinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:controlefinanceiro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\models\\contabancarialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:models\\contabancarialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\controlefinanceiro\\models\\usuariolog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6486975-46ED-441F-8B29-C62CE1D87749}|ControleFinanceiro.csproj|solutionrelative:models\\usuariolog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\global.json",
+              "RelativeToolTip": "global.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-25T00:24:19.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-25T00:02:49.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:59:43.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:55:18.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControleFinanceiro",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\ControleFinanceiro.csproj",
+              "RelativeDocumentMoniker": "ControleFinanceiro.csproj",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\ControleFinanceiro.csproj",
+              "RelativeToolTip": "ControleFinanceiro.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T23:54:08.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContaBancariaLog.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\ContaBancariaLog.cs",
+              "RelativeDocumentMoniker": "Models\\ContaBancariaLog.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\ContaBancariaLog.cs",
+              "RelativeToolTip": "Models\\ContaBancariaLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:04:38.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioLog.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\UsuarioLog.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioLog.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\UsuarioLog.cs",
+              "RelativeToolTip": "Models\\UsuarioLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:04:24.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "Models\\ContaBancaria.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\ContaBancaria.cs",
+              "RelativeToolTip": "Models\\ContaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T22:56:27.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\ControleFinanceiro\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T22:56:13.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
