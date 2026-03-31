@@ -22,13 +22,21 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Plantas" asp-action="Index">Plantas</a>
-                        </li>                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Vasos" asp-action="Index">Vasos</a>
-                        </li>
+                        </li>              
+                        <partial name="_loginAdm.cshtml"/>
+                        @*Verificando se o usuario está logado*@
+                        @if(User?.Identity?.IsAuthenticated ?? false) 
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Accounts" asp-action="Logout">Sair</a>
+                            </li>                            
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Accounts" asp-action="Login">Entrar</a>
+                            </li>                            
+                        }
                     </ul>
                 </div>
             </div>
