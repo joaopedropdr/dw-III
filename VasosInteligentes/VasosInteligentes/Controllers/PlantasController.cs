@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,11 +21,11 @@ namespace VasosInteligentes.Controllers
         {
             _context = context;
         }
-
+        [Authorize(Roles="Administrador")]
         // GET: Plantas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Planta.Find(_ => true).ToListAsync());
+            return View(await _context.Planta.Find(_=>true).ToListAsync());
         }
 
         // GET: Plantas/Details/5
@@ -52,15 +54,13 @@ namespace VasosInteligentes.Controllers
         // POST: Plantas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        // httpPost verifica se tudo foi passado
         [HttpPost]
         [ValidateAntiForgeryToken]
-        
-        public async Task<IActionResult> Create([Bind("Id,Nome,UmidadeIdealMin,UmidadeIdealMax,LuminosidadeIdeal")] Planta planta) // O bind mostra quais elementos são not null
+        public async Task<IActionResult> Create([Bind("Nome,UmidadeIdealMin,UmidadeIdealMax,LuminosidadeIdeal")] Planta planta)
         {
             if (ModelState.IsValid)
             {
-                await _context.Planta.InsertOneAsync(planta);              
+                await _context.Planta.InsertOneAsync(planta);
                 return RedirectToAction(nameof(Index));
             }
             return View(planta);
@@ -139,9 +139,9 @@ namespace VasosInteligentes.Controllers
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var result = await _context.Planta.DeleteOneAsync(m => m.Id == id);
-            if (result == null)
+            if(result == null)
             {
-                return NotFound();        
+                return NotFound();
             }
             return RedirectToAction(nameof(Index));
         }

@@ -5,7 +5,6 @@ namespace VasosInteligentes.Models
 {
     public class Vaso
     {
-        // Diretivas para evitar erros no mongo
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public string? Id { get; set; }
@@ -15,8 +14,7 @@ namespace VasosInteligentes.Models
         [Display(Name = "Localização")]
         public string? Localizacao { get; set; }
         public string? UsuarioId { get; set; }
-        public List<Planta> PlantaRelacionada { get; set; } = new List<Planta>();
 
-        
+        public List<Planta> PlantaRelacionada { get; set; } = new List<Planta>();
     }
 }

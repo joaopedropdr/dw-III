@@ -1,57 +1,60 @@
-using AspNetCore.Identity.MongoDbCore.Infrastructure;
 using Microsoft.AspNetCore.Identity;
-using MongoDB.Driver;
 using VasosInteligentes.Data;
 using VasosInteligentes.Models;
 using VasosInteligentes.Seeds;
+using VasosInteligentes.Services;
+using VasosInteligentes.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-// Conexão com o mongo
+//conexão com o mongoDb
 builder.Services.Configure<MongoSettings>(
     builder.Configuration.GetSection("MongoConnection"));
 builder.Services.AddSingleton<ContextMongoDb>();
 
-// Configuração do indentity
+//configuração do Identity
+
+
 var mongoSettings = builder.Configuration
     .GetSection("MongoConnection")
     .Get<MongoSettings>();
+
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>
-    (options => 
-        {
-            // Itens que a senha deve ter. 
-            // Minimo 6 letras
-            options.Password.RequiredLength = 6;
-            // Letras maiusculas
-            options.Password.RequireUppercase = false;
-            // Letras minusculas
-            options.Password.RequireLowercase = false;
-            // Letras caracter especial
-            options.Password.RequireNonAlphanumeric = false;
-            // Numeros
-            options.Password.RequireDigit = false;
-        })
-        .AddMongoDbStores<ApplicationUser, ApplicationRole, string>(mongoSettings.ConnectionString, mongoSettings.Database)
-        .AddDefaultTokenProviders();
-// Importante para fazer o Scaffolding e as RazorPages para o identity
+    (options =>
+    {
+        options.Password.RequiredLength = 6;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireDigit = false;
+        options.Password.RequireUppercase = false;
+    })
+    .AddMongoDbStores<ApplicationUser, ApplicationRole, string>
+    (mongoSettings.ConnectionString, mongoSettings.Database)
+    .AddDefaultTokenProviders();
+
+//importante para Scaffolding  e as RazorPages para o Identity
 builder.Services.AddRazorPages();
-    
+
+//configuração envio de email
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddSingleton<EmailService>();
+
+
 var app = builder.Build();
 
-// Seeds
-using (var Scope = app.Services.CreateScope())
+//seeds
+using(var Scope = app.Services.CreateScope())
 {
-    var service = Scope.ServiceProvider;
+    var services = Scope.ServiceProvider;
     try
     {
-        await IdentitySeeds.SeedRolesAndUser(service, "Adm@123");
+        await IdentitySeeds.SeedRolesAndUser(services, "Admin@123");
+
     }
-    catch (Exception ex)
+    catch(Exception ex)
     {
-        Console.WriteLine($"Erro no seed: {ex.Message}");
+        Console.WriteLine($"Erro Seed: {ex.Message}");
     }
 }
 
@@ -61,10 +64,10 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseRouting();
-// Acrescentar o UseAuthentication antes do UseAuthorization
-// Ele garante que o usuario tem que se logar/autenticar antes de usar o sistema
-app.UseAuthentication();
 
+//acrescentar app.UseAuthentication() antes do app.UseAuthorization();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapStaticAssets();

@@ -9,10 +9,9 @@ namespace VasosInteligentes.Models
         [Required]
         public string? Celular { get; set; }
         [Required]
-        [EmailAddress(ErrorMessage = "E-mail Inválido")]
+        [EmailAddress(ErrorMessage ="E-mail Inválido")]
         public string? Email { get; set; }
         [Required]
         public string? Password { get; set; }
-
     }
 }

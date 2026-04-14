@@ -10,7 +10,7 @@ namespace VasosInteligentes.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase("BancoTemporario");
+            optionsBuilder.UseInMemoryDatabase("Banco Temporario");
         }
     }
 }
