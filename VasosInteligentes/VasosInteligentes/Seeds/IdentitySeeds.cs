@@ -32,13 +32,13 @@ namespace VasosInteligentes.Seeds
             //criar os usuários 
             //criar o administrador
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-            if (await userManager.FindByEmailAsync("admin@admin.com") == null)
+            if (await userManager.FindByEmailAsync("jpderussi@gmail.com") == null)
             {
                 //se não encontrou será inserido
                 var adminUser = new ApplicationUser
                 {
-                    UserName = "admin@admin.com",
-                    Email = "admin@admin.com",
+                    UserName = "jpderussi@gmail.com",
+                    Email = "jpderussi@gmail.com",
                     EmailConfirmed = true
                 };
                 var resultAdmin = await userManager.CreateAsync(adminUser, defaultPassword);

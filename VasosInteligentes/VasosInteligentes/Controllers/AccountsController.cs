@@ -125,7 +125,7 @@ namespace VasosInteligentes.Controllers
                 return RedirectToAction("ResetPasswordConfirm");
             }
             var decodeToken = HttpUtility.UrlDecode(model.Token);
-            var result = await _userManager.ResetPasswordAsync(user, decodeToken, model.Password);
+            var result = await _userManager.ResetPasswordAsync(user, decodeToken, model.NewPassword);
             if(result.Succeeded) 
             {
                 return RedirectToAction("ResetPasswordConfirm");
@@ -137,6 +137,7 @@ namespace VasosInteligentes.Controllers
 
             return View(model);
         }
+
 
     }//classe
 
