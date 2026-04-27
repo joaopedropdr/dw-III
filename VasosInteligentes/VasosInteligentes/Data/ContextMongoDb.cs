@@ -32,5 +32,9 @@ namespace VasosInteligentes.Data
         {
             get { return _database.GetCollection<Planta>("Planta"); }
         }
+        public IMongoCollection<User> User
+        {
+            get { return _database.GetCollection<User>("User"); }
+        }
     }
 }

@@ -10,6 +10,7 @@
         "dependencies": {
           "AspNetCore.Identity.MongoDbCore": "7.0.0",
           "MailKit": "4.15.1",
+          "Microsoft.EntityFrameworkCore.Design": "9.0.12",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "9.0.12",
           "MongoDB.Driver": "3.6.0"

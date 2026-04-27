@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\seeds\\identityseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\seeds\\identityseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\views\\accounts\\forgotpasswordconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\views\\accounts\\forgotpasswordconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\vasosinteligentes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\vasosinteligentes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\views\\accounts\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\viewmodel\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\views\\accounts\\forgotpasswordconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\views\\accounts\\forgotpasswordconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A425376-7621-4C11-AE0C-5CE2E3180589}|VasosInteligentes\\VasosInteligentes.csproj|c:\\programa\u00E7\u00E3o\\dw-iii\\vasosinteligentes\\vasosinteligentes\\views\\shared\\_partialusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -70,11 +82,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VasosInteligentes\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T21:28:46.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextMongoDb.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "RelativeToolTip": "VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T21:19:20.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "VasosInteligentes\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T21:15:27.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VasosInteligentes",
+              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\VasosInteligentes.csproj",
+              "RelativeDocumentMoniker": "VasosInteligentes\\VasosInteligentes.csproj",
+              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\VasosInteligentes.csproj",
+              "RelativeToolTip": "VasosInteligentes\\VasosInteligentes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T21:03:50.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FakeContext.cs",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Data\\FakeContext.cs",
               "RelativeDocumentMoniker": "VasosInteligentes\\Data\\FakeContext.cs",
@@ -86,12 +150,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ResetPasswordConfirm.cshtml",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Accounts\\ResetPasswordConfirm.cshtml",
               "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Accounts\\ResetPasswordConfirm.cshtml",
@@ -99,11 +159,12 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Accounts\\ResetPasswordConfirm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T19:51:09.32Z"
+              "WhenOpened": "2026-04-14T19:51:09.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "EmailSettings.cs",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Settings\\EmailSettings.cs",
               "RelativeDocumentMoniker": "VasosInteligentes\\Settings\\EmailSettings.cs",
@@ -111,11 +172,12 @@
               "RelativeToolTip": "VasosInteligentes\\Settings\\EmailSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T19:51:09.41Z"
+              "WhenOpened": "2026-04-14T19:51:09.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\appsettings.json",
               "RelativeDocumentMoniker": "VasosInteligentes\\appsettings.json",
@@ -123,19 +185,21 @@
               "RelativeToolTip": "VasosInteligentes\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-14T19:51:09.412Z"
+              "WhenOpened": "2026-04-14T19:51:09.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "VasosInteligentes\\Services\\EmailService.cs",
               "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Services\\EmailService.cs",
               "RelativeToolTip": "VasosInteligentes\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T19:51:09.414Z"
+              "WhenOpened": "2026-04-14T19:51:09.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -145,14 +209,14 @@
               "RelativeDocumentMoniker": "VasosInteligentes\\Controllers\\AccountsController.cs",
               "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "VasosInteligentes\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAwH8AAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwH8AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T19:51:09.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Accounts\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Accounts\\ResetPassword.cshtml",
@@ -160,11 +224,12 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Accounts\\ResetPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T19:51:09.401Z"
+              "WhenOpened": "2026-04-14T19:51:09.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ResetPasswordViewModel.cs",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\ViewModel\\ResetPasswordViewModel.cs",
               "RelativeDocumentMoniker": "VasosInteligentes\\ViewModel\\ResetPasswordViewModel.cs",
@@ -172,11 +237,12 @@
               "RelativeToolTip": "VasosInteligentes\\ViewModel\\ResetPasswordViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T19:51:09.404Z"
+              "WhenOpened": "2026-04-14T19:51:09.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Accounts\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Accounts\\ForgotPassword.cshtml",
@@ -184,7 +250,8 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Accounts\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T19:51:09.408Z"
+              "WhenOpened": "2026-04-14T19:51:09.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -194,27 +261,14 @@
               "RelativeDocumentMoniker": "VasosInteligentes\\Seeds\\IdentitySeeds.cs",
               "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Seeds\\IdentitySeeds.cs",
               "RelativeToolTip": "VasosInteligentes\\Seeds\\IdentitySeeds.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T20:04:43.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Program.cs",
-              "RelativeDocumentMoniker": "VasosInteligentes\\Program.cs",
-              "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Program.cs",
-              "RelativeToolTip": "VasosInteligentes\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T19:51:09.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "ForgotPasswordConfirm.cshtml",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Accounts\\ForgotPasswordConfirm.cshtml",
               "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Accounts\\ForgotPasswordConfirm.cshtml",
@@ -222,11 +276,12 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Accounts\\ForgotPasswordConfirm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T19:51:09.406Z"
+              "WhenOpened": "2026-04-14T19:51:09.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "_partialUsuario.cshtml",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Shared\\_partialUsuario.cshtml",
               "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Shared\\_partialUsuario.cshtml",
@@ -234,11 +289,12 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Shared\\_partialUsuario.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T19:51:09.418Z"
+              "WhenOpened": "2026-04-14T19:51:09.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MeusVasos.cshtml",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Views\\Vasos\\MeusVasos.cshtml",
               "RelativeDocumentMoniker": "VasosInteligentes\\Views\\Vasos\\MeusVasos.cshtml",
@@ -246,17 +302,18 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\MeusVasos.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-14T19:51:09.422Z"
+              "WhenOpened": "2026-04-14T19:51:09.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Models\\User.cs",
               "RelativeDocumentMoniker": "VasosInteligentes\\Models\\User.cs",
               "ToolTip": "C:\\Programa\u00E7\u00E3o\\dw-III\\VasosInteligentes\\VasosInteligentes\\Models\\User.cs",
               "RelativeToolTip": "VasosInteligentes\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T19:51:09.425Z",
               "EditorCaption": ""

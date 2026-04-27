@@ -1490,7 +1490,7 @@
           "System.Text.Json": "9.0.12"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net8.0/_._": {
             "related": ".xml"
           }
         },
@@ -7580,6 +7580,7 @@
     "net9.0": [
       "AspNetCore.Identity.MongoDbCore >= 7.0.0",
       "MailKit >= 4.15.1",
+      "Microsoft.EntityFrameworkCore.Design >= 9.0.12",
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.12",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.12",
@@ -7645,6 +7646,12 @@
             "target": "Package",
             "version": "[4.15.1, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.12, )"
+          },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.0, )"
@@ -7686,5 +7693,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MailKit' 4.15.1 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-9j88-vvj5-vhgr",
+      "libraryId": "MailKit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
