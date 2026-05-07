@@ -1,0 +1,13 @@
+﻿using MongoDB.Bson.Serialization.Attributes;
+
+namespace exercicio_p1.Models
+{
+    public class Clinica
+    {
+        [BsonId]
+        [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
+        public string? Id { get; set; }
+        public string? Nome { get; set; }
+        public bool Alarme { get; set; } = false;
+    }
+}

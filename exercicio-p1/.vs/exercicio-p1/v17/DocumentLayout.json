@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dw-III\\exercicio-p1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\views\\clinica\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\views\\clinica\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\views\\clinica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\views\\clinica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\data\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\data\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|c:\\dw-iii\\exercicio-p1\\exercicio-p1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{380A1D2D-6B4D-4B67-AFC3-511E8E4160B1}|exercicio-p1\\exercicio-p1.csproj|solutionrelative:exercicio-p1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Views\\Clinica\\Index.cshtml",
+              "RelativeDocumentMoniker": "exercicio-p1\\Views\\Clinica\\Index.cshtml",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Views\\Clinica\\Index.cshtml",
+              "RelativeToolTip": "exercicio-p1\\Views\\Clinica\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T15:06:59.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Views\\Clinica\\Create.cshtml",
+              "RelativeDocumentMoniker": "exercicio-p1\\Views\\Clinica\\Create.cshtml",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Views\\Clinica\\Create.cshtml",
+              "RelativeToolTip": "exercicio-p1\\Views\\Clinica\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T13:58:12.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "exercicio-p1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "exercicio-p1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T13:53:31.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClinicaController.cs",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Controllers\\ClinicaController.cs",
+              "RelativeDocumentMoniker": "exercicio-p1\\Controllers\\ClinicaController.cs",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Controllers\\ClinicaController.cs",
+              "RelativeToolTip": "exercicio-p1\\Controllers\\ClinicaController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:32:03.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Program.cs",
+              "RelativeDocumentMoniker": "exercicio-p1\\Program.cs",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Program.cs",
+              "RelativeToolTip": "exercicio-p1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:06:50.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Data\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "exercicio-p1\\Data\\MongoSettings.cs",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Data\\MongoSettings.cs",
+              "RelativeToolTip": "exercicio-p1\\Data\\MongoSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:12:27.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContextMongoDb.cs",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Data\\ContextMongoDb.cs",
+              "RelativeDocumentMoniker": "exercicio-p1\\Data\\ContextMongoDb.cs",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Data\\ContextMongoDb.cs",
+              "RelativeToolTip": "exercicio-p1\\Data\\ContextMongoDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:11:09.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\appsettings.json",
+              "RelativeDocumentMoniker": "exercicio-p1\\appsettings.json",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\appsettings.json",
+              "RelativeToolTip": "exercicio-p1\\appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T13:20:56.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clinica.cs",
+              "DocumentMoniker": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Models\\Clinica.cs",
+              "RelativeDocumentMoniker": "exercicio-p1\\Models\\Clinica.cs",
+              "ToolTip": "C:\\dw-III\\exercicio-p1\\exercicio-p1\\Models\\Clinica.cs",
+              "RelativeToolTip": "exercicio-p1\\Models\\Clinica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:17:29.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
