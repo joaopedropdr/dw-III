@@ -1,0 +1,38 @@
+﻿@model exercicio_preparatorio.Models.Clinica
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Excluir Clinica</h1>
+
+<hr />
+<div>
+    <h4>Clinica</h4>
+    <hr />
+    <dl class="row">
+        @*Nome do campo*@
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        @*Valor do campo*@
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group d-flex gap-2 mt-4">
+            <input type="submit" value="Excluir" class="btn btn-danger w-100" />
+            <a class="btn btn-secondary w-100" asp-action="Index">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

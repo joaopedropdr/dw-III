@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\views\\clinica\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\views\\clinica\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\views\\clinica\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\views\\clinica\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\views\\clinica\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\views\\clinica\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\views\\clinica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\views\\clinica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\exercicio-preparatorio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\exercicio-preparatorio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\models\\clinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\data\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\data\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|c:\\programacao\\dw-iii\\exercicio-preparatorio\\exercicio-preparatorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D8F329-FB39-908A-B3FC-0A33E0F0015B}|exercicio-preparatorio\\exercicio-preparatorio.csproj|solutionrelative:exercicio-preparatorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 136,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Delete.cshtml",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Views\\Clinica\\Delete.cshtml",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Delete.cshtml",
+              "RelativeToolTip": "exercicio-preparatorio\\Views\\Clinica\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:38:10.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Edit.cshtml",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Views\\Clinica\\Edit.cshtml",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Edit.cshtml",
+              "RelativeToolTip": "exercicio-preparatorio\\Views\\Clinica\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:37:55.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "exercicio-preparatorio",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\exercicio-preparatorio.csproj",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\exercicio-preparatorio.csproj",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\exercicio-preparatorio.csproj",
+              "RelativeToolTip": "exercicio-preparatorio\\exercicio-preparatorio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T19:13:16.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "exercicio-preparatorio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T18:24:49.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Create.cshtml",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Views\\Clinica\\Create.cshtml",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Create.cshtml",
+              "RelativeToolTip": "exercicio-preparatorio\\Views\\Clinica\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T18:09:45.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Index.cshtml",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Views\\Clinica\\Index.cshtml",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Views\\Clinica\\Index.cshtml",
+              "RelativeToolTip": "exercicio-preparatorio\\Views\\Clinica\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T18:09:34.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicaController.cs",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Controllers\\ClinicaController.cs",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Controllers\\ClinicaController.cs",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Controllers\\ClinicaController.cs",
+              "RelativeToolTip": "exercicio-preparatorio\\Controllers\\ClinicaController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:06:25.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Data\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Data\\MongoSettings.cs",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Data\\MongoSettings.cs",
+              "RelativeToolTip": "exercicio-preparatorio\\Data\\MongoSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:55:21.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContextMongoDb.cs",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Data\\ContextMongoDb.cs",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Data\\ContextMongoDb.cs",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Data\\ContextMongoDb.cs",
+              "RelativeToolTip": "exercicio-preparatorio\\Data\\ContextMongoDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:54:55.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Program.cs",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Program.cs",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Program.cs",
+              "RelativeToolTip": "exercicio-preparatorio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:50:30.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\appsettings.json",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\appsettings.json",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\appsettings.json",
+              "RelativeToolTip": "exercicio-preparatorio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T18:48:46.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Clinica.cs",
+              "DocumentMoniker": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Models\\Clinica.cs",
+              "RelativeDocumentMoniker": "exercicio-preparatorio\\Models\\Clinica.cs",
+              "ToolTip": "C:\\Programacao\\dw-III\\exercicio-preparatorio\\exercicio-preparatorio\\Models\\Clinica.cs",
+              "RelativeToolTip": "exercicio-preparatorio\\Models\\Clinica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:40:19.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
